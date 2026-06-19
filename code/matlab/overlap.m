@@ -16,8 +16,8 @@ c = 299792458;   % speed of light (m/s)
 deltaX = r1-r2;
 
 % get angles from healpix pixelization of the sky
-%[theta,phi]=healpix2ang('pixelization_3072.txt');
-[theta,phi]=healpix2ang('pixelization_12288.txt');
+[theta,phi]=healpix2ang('pixelization_12288.dat');
+%[theta,phi]=healpix2ang('pixelization_49152.dat');
 %[theta,phi]=healpix2ang('pixelization_196608.dat');
 Npix = length(theta);
 dArea = 4*pi/Npix;
