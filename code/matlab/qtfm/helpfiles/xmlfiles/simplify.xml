@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE function SYSTEM "qtfmfunction.dtd">
+<function name = "simplify" overload = "true">
+<short>Simplify symbolic quaternion.</short>
+<syntax>S = simplify(expr, varargin)</syntax>
+<long>
+    <para>This function requires the &matlab; Symbolic Math Toolbox.</para>
+<para>
+<code>simplify</code> applies algebraic simplification to each component of
+the quaternion <code>expr</code>.
+It accepts the same parameter profiles as the overloaded &matlab; function.
+</para>
+</long>
+<seealso>
+<qtfmfun name = "assume"/>
+<qtfmfun name = "assumeAlso"/>
+<qtfmfun name = "assumptions"/>
+<qtfmfun name = "collect"/>
+<qtfmfun name = "combine"/>
+<qtfmfun name = "expand"/>
+<qtfmfun name = "rewrite"/>
+<matlabfun name = "simplify"/>
+</seealso>
+</function>
+
+<!--$Id: simplify.xml 1096 2020-06-26 16:05:23Z sangwine $-->

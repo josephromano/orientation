@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE function SYSTEM "qtfmfunction.dtd">
+<function name = "assume" overload = "true">
+<short>Set assumptions on symbolic quaternion.</short>
+<syntax>assume(expr, varargin)</syntax>
+<long>
+    <para>This function requires the &matlab; Symbolic Math Toolbox.</para>
+    <para>
+        <code>assume</code> sets an assumption on each component of the its
+        quaternion parameter <code>expr</code>.
+    </para>
+</long>
+<seealso>
+<qtfmfun name = "assumeAlso"/>
+<qtfmfun name = "assumptions"/>
+<qtfmfun name = "collect"/>
+<qtfmfun name = "combine"/>
+<qtfmfun name = "expand"/>
+<qtfmfun name = "rewrite"/>
+<qtfmfun name = "simplify"/>
+<matlabfun name = "assume"/>
+</seealso>
+</function>
+
+<!--$Id: assume.xml 1097 2020-06-26 16:09:21Z sangwine $-->
