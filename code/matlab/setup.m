@@ -1,6 +1,6 @@
-%addpath ~/research/MEALPix/src
-%addpath ~/research/m_map
-%addpath ~/research/qtfm
+addpath MEALPix/src
+addpath m_map
+addpath qtfm
 
 set(0,'DefaultAxesFontSize',16);
 set(0,'DefaultAxesFontWeight','bold');
